@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+
+@utility font-space {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    /* Bold */
+}
+
+@utility roboto-mono-500 {
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@layer apple-system-500 {
+    font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    /* medium */
+}
+
+@utility hero-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 153.6px;
+    line-height: 153.6px;
+    color: #ffffff;
+}
+
