@@ -1,18 +1,23 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import Crausal from './components/Crausal'
 import Experties from './components/Experties'
+import Work from './components/Work'
+import Demo from './components/Demo'
+
+
 
 
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Nav/>
       <Hero/>
-      <Crausal/>
       <Experties/>
+      <Work/>
+      <Demo/>
+
 
   
       
