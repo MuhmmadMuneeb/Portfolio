@@ -3,7 +3,9 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Experties from './components/Experties'
 import Work from './components/Work'
-import Demo from './components/Demo'
+import Projects from './components/Projects'
+import Profile from './components/Profile'
+import Footer from './components/Footer'
 
 
 
@@ -15,8 +17,10 @@ const App = () => {
       <Nav/>
       <Hero/>
       <Experties/>
+      <Profile/>
       <Work/>
-      <Demo/>
+      <Projects/>
+      <Footer/>
 
 
   
