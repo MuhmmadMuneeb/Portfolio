@@ -90,7 +90,7 @@ const Work = () => {
                         className="relative overflow-hidden rounded-2xl shadow-2xl border border-white/10 bg-[#1e1e22]"
                     >
                         <video
-                            src="./out.webm"
+                            src="/out.webm"
                             loop
                             muted
                             autoPlay

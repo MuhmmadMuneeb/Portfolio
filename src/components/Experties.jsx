@@ -9,7 +9,7 @@ const Experties = () => {
       heading2: " Development",
       color: "#de048b", // Pink
       desc: "Experience building REST APIs using Node.js and Express, working with MongoDB, authentication (JWT), and server-side logic.",
-      logo: "./pc.svg"
+      logo: "/pc.svg"
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const Experties = () => {
       heading2: " React.js",
       color: "#2b48d9", // Blue
       desc: "Skilled in creating responsive user interfaces using React, Tailwind CSS, and modern JavaScript with focus on clean UI and UX.",
-      logo: "./react.svg"
+      logo: "/react.svg"
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const Experties = () => {
       heading2: " MERN",
       color: "#ff6b2b", // Orange
       desc: "Building full-stack applications using MongoDB, Express, React, and Node.js with real-world features like authentication and APIs.",
-      logo: "./flutter.svg"
+      logo: "/flutter.svg"
     },
   ];
 

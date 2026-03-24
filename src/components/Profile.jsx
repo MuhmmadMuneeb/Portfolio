@@ -45,15 +45,6 @@ const Profile = () => {
                 >
                     Crafting the web, one pixel and one endpoint at a time. I’m a full-stack engineer who lives at the intersection of aesthetics and efficiency. Using the MERN stack, I transform bold ideas into high-performance applications, ensuring every interaction is as seamless as the logic powering it behind the scenes.
                 </motion.p>
-
-                <motion.button
-                    variants={fadeUp}
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className='w-fit px-8 py-4 bg-[#66d9ed] text-black font-bold rounded-xl shadow-lg hover:shadow-[#66d9ed]/40 transition-all uppercase tracking-wider text-sm'
-                >
-                    Learn More →
-                </motion.button>
             </motion.div>
 
             {/* 🎬 RIGHT IMAGE SECTION */}
@@ -79,7 +70,7 @@ const Profile = () => {
                     <div className="absolute -inset-4 border border-[#66d9ed]/30 rounded-3xl transition-all duration-500 group-hover:inset-0 group-hover:border-[#66d9ed]"></div>
                     
                     <motion.img
-                        src="./myimg.jpeg" 
+                        src="/myimg.jpeg" 
                         alt="Developer portrait"
                         whileHover={{ scale: 1.02 }}
                         className="relative w-full max-w-[450px] aspect-[4/5] object-cover rounded-2xl shadow-2xl z-10 grayscale-[30%] hover:grayscale-0 transition-all duration-500"

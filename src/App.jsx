@@ -6,6 +6,7 @@ import Work from './components/Work'
 import Projects from './components/Projects'
 import Profile from './components/Profile'
 import Footer from './components/Footer'
+import ContactForm from './components/ContactForm'
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
       <Profile/>
       <Work/>
       <Projects/>
+      <ContactForm/>
       <Footer/>
 
 
