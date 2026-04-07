@@ -31,6 +31,8 @@ const ContactForm = () => {
       });
   };
 
+ 
+
   return (
     <section id="contact" className="py-24 bg-[#0c0c0e] relative overflow-hidden">
       {/* 🌌 Background Glows */}

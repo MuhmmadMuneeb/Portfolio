@@ -24,8 +24,8 @@ export const CardBody = ({ children, className }) => {
     const y = e.clientY - rect.top;
 
     // 🔥 smoother tilt (reduced from 20 → 8)
-    const rotateX = (y / rect.height - 0.5) * -20;
-    const rotateY = (x / rect.width - 0.5) * 20;
+    const rotateX = (y / rect.height - 0.5) * -40;
+    const rotateY = (x / rect.width - 0.5) * 40;
 
     setRotate({ x: rotateX, y: rotateY });
   };

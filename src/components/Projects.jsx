@@ -3,7 +3,7 @@ import { CardContainer, CardBody, CardItem } from "./Card";
 import { projects } from "../config/projectsData";
 
 const Projects = () => {
- 
+
   return (
     <section id="projects" className="bg-[#19181c] py-20 px-6">
       {/* Section Header */}
@@ -17,7 +17,7 @@ const Projects = () => {
         {projects.map((project, idx) => (
           <CardContainer key={idx} className="inter-var">
             <CardBody className="bg-[#1e1e22] relative group/card border-white/[0.1] hover:border-[#66d9ed]/50 w-full sm:w-[30rem] h-auto rounded-2xl p-6 border transition-all duration-500 shadow-2xl">
-              
+
               {/* Floating Title */}
               <CardItem
                 translateZ="50"
@@ -38,7 +38,7 @@ const Projects = () => {
               {/* Project Image */}
               <CardItem translateZ="100" className="w-full mt-6">
                 <div className="relative overflow-hidden rounded-xl group-hover/card:shadow-[0_0_30px_rgba(102,217,237,0.2)]">
-                   <img
+                  <img
                     src={project.img}
                     className="h-60 w-full object-cover rounded-xl grayscale group-hover/card:grayscale-0 transition-all duration-500"
                     alt={project.title}
@@ -59,18 +59,20 @@ const Projects = () => {
 
               {/* Bottom Actions */}
               <div className="flex justify-between items-center mt-10">
-                <CardItem
+                {/* <CardItem
                   translateZ={20}
                   as="a"
                   href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-4 py-2 rounded-xl text-xs font-bold text-[#66d9ed] hover:underline transition-all"
                 >
                   CASE STUDY →
-                </CardItem>
+                </CardItem> */}
                 <CardItem
-                  translateZ={20}
                   as="button"
-                  className="px-6 py-2 rounded-lg bg-white text-black hover:bg-[#66d9ed] hover:text-black text-xs font-bold transition-all uppercase tracking-tighter"
+                  onClick={() => window.open(project.link, "_blank")}
+                  className="px-6 py-2 rounded-lg cursor-pointer bg-white text-black hover:bg-[#66d9ed] hover:text-black text-xs font-bold transition-all uppercase tracking-tighter"
                 >
                   LIVE DEMO
                 </CardItem>

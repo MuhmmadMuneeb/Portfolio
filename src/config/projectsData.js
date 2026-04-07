@@ -1,23 +1,23 @@
 export const projects = [
-    {
-      title: "NextGen-Commerce",
-      desc: "A high-performance e-commerce platform built with React, Redux, and Node.js featuring seamless state management.",
-      img: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=2000&auto=format&fit=crop",
-      link: "#",
-      tags: ["Vite", "Redux", "Express"]
-    },
-    {
-      title: "Bookstore App",
-      desc: "Modern digital library with real-time filtering, detailed cataloging, and a fluid user interface.",
-      img: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=2000&auto=format&fit=crop",
-      link: "#",
-      tags: ["React", "Tailwind", "Firebase"]
-    },
-    {
-      title: "The Café Website",
-      desc: "A boutique café landing page with glassmorphism UI, Framer Motion animations, and responsive menu layers.",
-      img: "https://images.unsplash.com/photo-1501339817302-444d182d3005?q=80&w=2000&auto=format&fit=crop",
-      link: "#",
-      tags: ["Animation", "UI/UX", "MERN"]
-    }
-  ];
+  {
+    title: "Gym / Fitness Website",
+    desc: "A modern fitness website built with React featuring bold UI, smooth animations, and a fully responsive layout. Designed to deliver an engaging user experience with interactive navigation and visually rich sections.",
+    img: "/gym.png",
+    link: "https://gym-five-opal.vercel.app/",
+    tags: ["React", "Tailwind", "Framer Motion", "React Router"]
+  },
+  {
+    title: "Fashion E-commerce UI",
+    desc: "A clean and elegant fashion e-commerce frontend inspired by real-world brands. Includes product listings, cart UI, and responsive design with a strong focus on UI/UX and visual presentation.",
+    img: "/outfitter.png",
+    link: "https://outfitters-zjgm.vercel.app/",
+    tags: ["React", "Tailwind", "Framer Motion", "React Router"]
+  },
+  {
+    title: "Dice Game",
+    desc: "An interactive dice game built with React demonstrating core concepts like state management, event handling, and dynamic UI updates with real-time score tracking.",
+    img: "/dice.png",
+    link: "https://dice-game-cnec.vercel.app",
+    tags: ["React", "Tailwind", "Framer Motion", "React Router"]
+  }
+];
